@@ -164,13 +164,7 @@ body {
 .footer-nav li a:hover {
 	background-color: #000;
 	color: white;
-	text-shadow: 0 0 10px rgba(255,255,255,1) ,
-	 			 0 0 20px rgba(255,255,255,1) ,
-	 			  0 0 30px rgba(255,255,255,1) ,
-	 			   0 0 40px #ffffff ,
-	 			    0 0 70px #ffffff ,
-	 			     0 0 80px #ffffff ,
-	 			      0 0 100px #ffffff ;
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ffffff , 0 0 70px #ffffff , 0 0 80px #ffffff , 0 0 100px #ffffff ;
 }
 
 @media screen and (max-width: 1208px) {
@@ -297,3 +291,22 @@ body {
 	text-shadow: 1px 2px #D4AF37;
 	font-size: 30px;
 }
+
+
+.email a,
+.phone a {
+	color: white;
+	text-shadow: 1px 2px #D4AF37;
+}
+
+
+.description {
+	font-size: 19px;
+}
+
+.contact h1,
+.contact h2 {
+	text-align: center;
+}
+
+
